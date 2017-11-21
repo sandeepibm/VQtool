@@ -1,0 +1,190 @@
+#centeredmenu {
+   float:left;
+   width:100%;
+   background:#fff;
+   border-bottom:4px solid #000;
+   overflow:hidden;
+   position:relative;
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+button {
+height:40px;
+width:130px;
+position: relative;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif, Tahoma ;
+font-weight: bold;
+font-size: 14px;
+font-style:Normal;
+margin: 5px 50px 0px 5px;
+color:#000000;
+border:1px solid #848484;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;  
+border-radius: 15px;
+box-shadow: 0px 5px 5px #888888;
+
+background: -moz-linear-gradient(top, #ffffff, #585858);  
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#585858));
+}
+
+button:hover {
+top: 0px;
+left: -5px;
+box-shadow: 10px 10px 5px #888888;
+
+
+background: -moz-linear-gradient(top, #585858, #ffffff);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#585858), to(#ffffff));
+font-style:Italic;
+}
+
+table.header
+{text-align: center;
+font-family: Papyrus, MV Boli, Verdana, Geneva, Arial, Helvetica, sans-serif, Tahoma ;
+font-weight: bold;
+font-size: 20px;
+font-style:Italic;
+color: #F8FBF4;
+/*background-color: #13D5D2  #72ab13 07928F*/;
+border-collapse: collapse;
+border-spacing: 0px;
+box-shadow: 10px 10px 5px #888888;
+background: #13D5D2;  
+background: -moz-linear-gradient(top, #0272a7, #13D5D2);  
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#13D5D2)); 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px;  
+border-radius: 10px;
+}
+
+table.header:hover
+{
+position:relative;
+left: 10px;
+font-style:Normal;
+box-shadow: 0px 5px 5px #888888;
+background: -moz-linear-gradient(top, #13D5D2, #0272a7); 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#13D5D2), to(#0272a7)); 
+}
+
+table.stats
+{text-align: center;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif, Tahoma ;
+font-weight: normal;
+font-size: 13px;
+color: #fff;
+/*background-color: #07928F  #72ab13 */;
+border: 1px #ccc solid;
+border-collapse: collapse;
+border-spacing: 0px;
+box-shadow: 10px 10px 5px #888888;
+background: #585858;  
+background: -moz-linear-gradient(left, #585858, #cccccc);  
+background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#585858), to(#cccccc));
+}
+
+table.stats td
+{background-color: #fff;
+color: #000;
+padding: 4px;
+text-align: center;
+word-wrap: break-word;
+border: 1px #C3C2C2 solid;
+background: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E6E6E6), to(#CCCCCC));
+}
+
+table.stats td:hover
+{
+background: -moz-linear-gradient(left, #CCCCCC, #585858);
+background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#CCCCCC), to(#585858));
+color: #fff;
+}
+
+
+table.stats td.hed
+{background-color: #666;
+color: #fff;
+padding: 4px;
+text-align: left;
+border-bottom: 2px #ccc solid;
+font-size: 14px;
+font-weight: bold;
+} 
+
+.submit {
+  padding:2px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  width:90px;
+  height:27px;
+  font-stretch:ultra-expanded;
+  font-size:small;}
+  
+textarea {
+  color:#848484;
+  font-size: 80%;
+}
+
+label{
+background:#FFF;
+color:#0A5DAB;
+}
+
+select{
+ height:25px;
+ width:398px;
+ text-align:center;
+ font-weight:500;
+ font-family:Tahoma;
+ color:#585858;
+ border:1px solid #378EF1; 
+ -moz-border-radius: 10px 0px 0px 10px; 
+ -webkit-border-radius: 10px 10px 10px 10px;  
+ border-radius: 10px 0px 0px 10px;
+/* -webkit-appearance: none;
+ -moz-appearance: none;
+ background:url(../images/dropdown.png) no-repeat 0 0;*/
+ background:#FFF;
+}
+
+#progressbar
+{
+  width:250px;
+  padding:1px;
+  background-color:#FFFFFF;
+  border:1px solid black;
+  height:28px;	    
+}
+/* Firefox */
+progress::-moz-progress-bar {  
+background: -moz-linear-gradient(left, #000000, #cccccc);  	
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+background:#000000;
+background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#000000), to(#cccccc));	
+}
+
